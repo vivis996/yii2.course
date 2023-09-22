@@ -127,6 +127,6 @@ class SiteController extends Controller
     }
 
     public function actionPrivacyPolicy() : string {
-        return "Privacy Policy";
+        return $this->render("privacyPolicy");
     }
 }

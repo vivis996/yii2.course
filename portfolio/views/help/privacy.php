@@ -3,6 +3,7 @@
 use yii\helpers\Html;
 
 $this->title = 'Privacy';
+$this->params['breadcrumbs'][] = ['label' => 'Help Center', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="help-index">

@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 
-$this->title = 'privacy';
+$this->title = 'Privacy';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="help-index">

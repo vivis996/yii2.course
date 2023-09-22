@@ -27,4 +27,13 @@ $this->params['breadcrumbs'][] = $this->title;
     Aliquam sollicitudin dictum gravida. In semper ultrices mauris eget gravida. Etiam nec cursus ante.
     Morbi blandit, enim et venenatis ullamcorper, risus magna dapibus ex, aliquet pharetra nisi lorem ullamcorper lacus.
   </p>
-</div>
+
+  <div>
+    <?= Html::a('Account Settings', ['help/account-settings']) ?>
+  </div>
+  <div>
+    <?= Html::a('Login and Security ', ['help/login-and-security']) ?>
+  </div>
+  <div>
+    <?= Html::a('Privacy', ['help/privacy']) ?>
+  </div>
